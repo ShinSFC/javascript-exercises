@@ -1,8 +1,7 @@
 const removeFromArray = function(array, ...element) {
-    //console.log(element); // element becomes an array
+    // element becomes an array because of ...
     for (let value1 of element) {
         console.log(value1);
-        // console.log(array) array is available here
         array = array.filter( function(value2) { // return is needed here or result is undefined
             return value2 != value1;
         });
