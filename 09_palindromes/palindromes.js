@@ -6,7 +6,7 @@ const palindromes = function (str) {
         return false;
     }
 };
-const alphanumerical = 'abcdefghijklmnopqrstuvwxyz0123456789'
-str.filter((char) => alphanumerical.includes(character))
+// const alphanumerical = 'abcdefghijklmnopqrstuvwxyz0123456789'
+// str.filter((char) => alphanumerical.includes(character))
 // Do not edit below this line
 module.exports = palindromes;
